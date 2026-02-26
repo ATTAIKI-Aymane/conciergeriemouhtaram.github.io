@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<!--
+Template name: Nova
+Template author: FreeBootstrap.net
+Author website: https://freebootstrap.net/
+License: https://freebootstrap.net/license
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conciergerie Mouhtaram - Gestion de Propriétés de Luxe au Maroc</title>
+     
+    <!-- ======= Google Font =======-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
+    <!-- End Google Font-->
+    
+    <!-- ======= Styles =======-->
+    <link href="assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendors/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="assets/vendors/glightbox/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendors/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendors/aos/aos.css" rel="stylesheet">
+    <!-- End Styles-->
+    
+    <!-- ======= Theme Style =======-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- End Theme Style-->
+    
+    <!-- ======= Apply theme =======-->
+    <script>
+      // Apply the theme as early as possible to avoid flicker
+      (function() {
+      const storedTheme = localStorage.getItem('theme') || 'light';
+      document.documentElement.setAttribute('data-bs-theme', storedTheme);
+      })();
+      
+      window.addEventListener("scroll", function () {
+        const navbar = document.getElementById("header");
+
+        if (window.scrollY > 50) {
+          navbar.classList.add("scrolled");
+        } else {
+          navbar.classList.remove("scrolled");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    
+    
+    <!-- ======= Site Wrap =======-->
+    <div class="site-wrap">
+      
+      
+      <!-- ======= Header =======-->
+      <header class="fbs__net-navbar navbar navbar-expand-lg dark" aria-label="freebootstrap.net navbar" id="header" >
+        <nav class="navbar" style=" width: 100%;">
+          <img src="" class="">
+          <div class="container d-flex align-items-center justify-content-between">
+            
+            
+            <!-- Start Logo-->
+            <a class="navbar-brand w-auto" href="index.html">
+              <!-- If you use a text logo, uncomment this if it is commented-->
+              <!-- Vertex--> 
+              
+              <!-- If you plan to use an image logo, uncomment this if it is commented-->
+              
+              <!-- logo dark--><img id="logo" class="logo dark img-fluid" src="assets/images/logo/logomohtaram.png" alt="FreeBootstrap.net image placeholder"> 
+              
+              <!-- logo light--><img class="logo light img-fluid" src="assets/images/logo/logomohtaram.png" alt="FreeBootstrap.net image placeholder">
+              
+              </a>
+            <!-- End Logo-->
+            
+            <!-- Start offcanvas-->
+            <div class="offcanvas offcanvas-start w-75" id="fbs__net-navbars" tabindex="-1" aria-labelledby="fbs__net-navbarsLabel" style="background-color: rgb(32, 201, 151);">
+              
+              
+              <div class="offcanvas-header" >
+                <div class="offcanvas-header-logo">
+                  <!-- If you use a text logo, uncomment this if it is commented-->
+                  
+                  <!-- h5#fbs__net-navbarsLabel.offcanvas-title Vertex-->
+                  
+                  <!-- If you plan to use an image logo, uncomment this if it is commented-->
+                  <a class="logo-link" id="fbs__net-navbarsLabel" href="index.html">
+                    
+                    
+                    <!-- logo dark--><img id="logo" class="logo dark img-fluid" src="assets/images/logo/logomohtaram.png" alt="FreeBootstrap.net image placeholder"> 
+                    
+                    <!-- logo light--><img class="logo light img-fluid" src="assets/images/logo/logomohtaram.png" alt="FreeBootstrap.net image placeholder"></a>
+                  
+                </div>
+                <button class="btn-close btn-close-black" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              
+              <div class="offcanvas-body align-items-lg-center">
+                
+                
+                <ul class="navbar-nav nav me-auto ps-lg-5 mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link scroll-link active" aria-current="page" href="#home"><h5 style="color: aliceblue;">Home</h5></a></li>
+                  <li class="nav-item"><a class="nav-link scroll-link" href="#about"><h5 style="color: aliceblue;">About</h5></a></li>
+                  <li class="nav-item"><a class="nav-link scroll-link" href="#pricing"><h5 style="color: aliceblue;">Pricing</h5></a></li>
+                  <li class="nav-item"><a class="nav-link scroll-link" href="#how-it-works"><h5 style="color: aliceblue;">How It Works</h5></a></li>
+                  <!-- nav bar-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" 
+                        href="#" 
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <h5 style="color: aliceblue;">Services</h5>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#services">
+                            Nos Services
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="https://purolex.ch">
+                            Nos Services de Nettoyage
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  <!-- nav bar-->
+                  <li class="nav-item"><a class="nav-link scroll-link" href="#testimonials"><h5 style="color: aliceblue;">testimonials</h5></a></li>
+                  <li class="nav-item"><a class="nav-link scroll-link" href="#faq"><h5 style="color: aliceblue;">faq</h5></a></li>
+                    
+              
+                </ul>
+                
+              </div>
+            </div>
+            <!-- End offcanvas-->
+            
+            <div class="ms-auto w-auto">
+              
+              
+              <div class="header-social d-flex align-items-center gap-1"><a class="btn btn-primary py-2" href="#contact">Contactez-Nous</a>
+                
+                <button class="fbs__net-navbar-toggler justify-content-center align-items-center ms-auto" data-bs-toggle="offcanvas" data-bs-target="#fbs__net-navbars" aria-controls="fbs__net-navbars" aria-label="Toggle navigation" aria-expanded="false">
+                  <svg class="fbs__net-icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="21" x2="3" y1="6" y2="6"></line>
+                    <line x1="15" x2="3" y1="12" y2="12"></line>
+                    <line x1="17" x2="3" y1="18" y2="18"></line>
+                  </svg>
+                  <svg class="fbs__net-icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 6 6 18"></path>
+                    <path d="m6 6 12 12"></path>
+                  </svg>
+                </button>
+                
+              </div>
+              
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- End Header-->
+      <div class="hero-image-container position-relative">
+        <img src="assets/images/96172-2000-500-Crop.jpg" alt="" class="w-100">
+        <h1 class="overlay-text position-absolute top-50  translate-middle">PUROLEX</h1>
+        <P class="overlay-text position-absolute translate-middle" style="font-size: 150%; position: absolute; top: 60%;">conciergeriemouhtaram</P>
+      </div>
+        <!-- ======= Main =======-->
+      <main>
+        
+        
+        <!-- ======= Hero =======-->
+        <section class="hero__v6 section" id="home">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="row">
+                  <div class="col-lg-11"><span class="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0">Gestion Immobilière Haut de Gamme</span>
+                    <h1 class="hero-title mb-3" data-aos="fade-up" data-aos-delay="100">Offrez une gestion d'excellence à votre bien</h1>
+                    <p class="hero-description mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="200">Un appartement de 2 chambres au Maroc peut vous faire gagner 32 500 Dhs par mois avec une gestion complète et transparente.</p>
+                    <div class="cta d-flex gap-2 mb-4 mb-lg-5" data-aos="fade-up" data-aos-delay="300">
+                      <a class="btn" href="#contact">Demander un Audit Gratuit</a>
+                    </div>
+                    <div class="logos mb-4" data-aos="fade-up" data-aos-delay="400"><span class="logos-title text-uppercase mb-4 d-block">Présents sur les meilleures plateformes</span>
+                      <div class="logos-images d-flex gap-4 align-items-center"><img class="img-fluid js-img-to-inline-svg" src="assets/images/logo/actual-size/logo-air-bnb__black.svg" alt="Airbnb" style="width: 110px;"><img class="" src="assets/images/booking-logo-black-transparent.png" alt="" style="width: 80px;"><img class="img-fluid js-img-to-inline-svg" src="assets/images/logo/actual-size/logo-google__black.svg" alt="Autres Plateformes" style="width: 110px;"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="hero-img"><img class="img-card img-fluid" src="assets/images/Gemini_Generated_Image_4awa674awa674awa.png" alt="Propriété de luxe" data-aos="fade-down" data-aos-delay="600"><img class="img-main img-fluid rounded-4" src="assets/images/services-conciergerie-hotels-paris-990x661.jpeg" alt="Image Propriété" data-aos="fade-in" data-aos-delay="500"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!-- End Hero-->
+
+        <!-- ======= Hero =======-->        
+        <!-- ======= About =======-->
+        <section class="about__v4 section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 order-md-2">
+                <div class="row justify-content-end">
+                  <div class="col-md-11 mb-4 mb-md-0"><span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Qui sommes-nous</span>
+                    <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">Conciergerie Mouhtaram: Votre partenaire en gestion immobilière</h2>
+                    <div data-aos="fade-up" data-aos-delay="200">
+                      <p>Conciergerie Mouhtaram est spécialisée dans la gestion de biens destinés à la location courte durée. Basés au Maroc, nous accompagnons les propriétaires dans la valorisation de leurs logements afin d'en maximiser le rendement locatif.</p>
+                      <p>Notre équipe locale met à profit son expérience et des outils technologiques performants pour offrir un service haut de gamme, sur mesure et parfaitement adapté aux attentes de chaque client.</p>
+                    </div>
+                    <h4 class="small fw-bold mt-4 mb-3" data-aos="fade-up" data-aos-delay="300">Nos Valeurs Clés</h4>
+                    <ul class="d-flex flex-row flex-wrap list-unstyled gap-3 features" data-aos="fade-up" data-aos-delay="400">
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Gain de temps</span></li>
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Transparence</span></li>
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Fiabilité</span></li>
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Flexibilité</span></li>
+                      <li class="d-flex align-items-center gap-2"><span class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span class="text">Excellence</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6"> 
+                <div class="img-wrap position-relative"><img class="img-fluid rounded-4" src="assets/images/about_2-min.jpg" alt="Notre équipe" data-aos="fade-up" data-aos-delay="0">
+                  <div class="mission-statement p-4 rounded-4 d-flex gap-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="mission-icon text-center rounded-circle"><i class="bi bi-lightbulb fs-4"></i></div>
+                    <div>
+                      <h3 class="text-uppercase fw-bold">Notre Mission</h3>
+                      <p class="fs-5 mb-0">Transformer chaque bien immobilier en une source de revenus optimisée et pérenne grâce à une gestion complète et transparente.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End About-->
+        
+        <!-- ======= Features =======-->
+        <section class="section features__v2" id="features">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="d-lg-flex p-5 rounded-4 content" data-aos="fade-in" data-aos-delay="0">
+                  <div class="row">
+                    <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
+                      <div class="row"> 
+                        <div class="col-lg-11">
+                          <div class="h-100 flex-column justify-content-between d-flex">
+                            <div>
+                              <h2 class="mb-4">Ce qui nous distingue</h2>
+                              <p class="mb-5">Chez Conciergerie Mouhtaram, nous nous engageons à offrir une gestion d'excellence avec transparence, flexibilité et un service personnalisé. Notre équipe locale combine expertise immobilière et outils technologiques pour maximiser vos revenus tout en préservant la qualité de votre bien.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-7">
+                      <div class="row justify-content-end">
+                        <div class="col-lg-11">
+                          <div class="row">
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="0">
+                              <div class="icon text-center mb-4"><i class="bi bi-hourglass-split fs-4"></i></div>
+                              <h3 class="fs-6 fw-bold mb-3">Gain de Temps</h3>
+                              <p>Nous prenons en charge la gestion complète de votre bien pour que vous puissiez profiter pleinement de votre temps libre.</p>
+                            </div>
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                              <div class="icon text-center mb-4"><i class="bi bi-graph-up-arrow fs-4"></i></div>
+                              <h3 class="fs-6 fw-bold mb-3">Optimisation des Revenus</h3>
+                              <p>Grâce à une tarification dynamique, nous maximisons la rentabilité de votre bien en toute transparence.</p>
+                            </div>
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                              <div class="icon text-center mb-4"><i class="bi bi-shield-check fs-4"></i></div>
+                              <h3 class="fs-6 fw-bold mb-3">Fiabilité Assurée</h3>
+                              <p>Un service rigoureux, fiable, et un respect strict de nos engagements pour votre sérénité.</p>
+                            </div>
+                            <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                              <div class="icon text-center mb-4"><i class="bi bi-sliders fs-4"></i></div>
+                              <h3 class="fs-6 fw-bold mb-3">Flexibilité sur-mesure</h3>
+                              <p>Des prestations personnalisées, adaptées à chaque bien et à chaque locataire pour répondre à vos besoins.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Features-->
+        
+        <!-- ======= Pricing =======-->
+        <section class="section pricing__v2" id="pricing">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-5 mx-auto text-center"><span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Notre Offre</span>
+                <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100">Services Complets de Gestion Immobilière</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Une solution clé en main pour optimiser vos revenus locatifs sans soucis</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8 mx-auto" data-aos="fade-up" data-aos-delay="300">
+                <div class="p-5 rounded-4 price-table popular h-100">
+                  <div>
+                    <h3 class="mb-3">Audit et Préparation</h3>
+                    <p class="mb-4">Audit et préparation à la mise en location courte durée — sur devis selon la nature du bien</p>
+                    <h4 class="fw-bold mb-3 mt-4">Services Inclus:</h4>
+                    <ul class="list-unstyled d-flex flex-column gap-3">
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Prise de photos professionnelles et optimisation des annonces</span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Stratégie de prix dynamique pour maximiser vos revenus</span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Marketing et promotion du bien</span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Gestion des check-in et check-out</span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Communication et service client</span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Organisation d'excursions pour les voyageurs</span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Maintenance et réparations</span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Ménage professionnel et gestion du linge</span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Gestion des consommables et transparence complète</span></li>
+                    </ul>
+                    <div class="mt-5"><a class="btn btn-white hover-outline" href="#contact" style="margin-bottom: 30PX;">Nous Contacter</a></div>
+                    <h3 class="mb-3">PUROLEX nettoyage</h3>
+                    <ul class="list-unstyled d-flex flex-column gap-3">
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Découvrez notre service de nettoyage sur notre site <a href="https://purolex.ch" style="color: aliceblue;">PUROLEX nettoyage</a></span></li>
+                      <li class="d-flex gap-2 align-items-start mb-0"><span class="icon rounded-circle position-relative mt-1"><i class="bi bi-check"></i></span><span>Nettoyage professionnel pour les immeubles, entreprises et privés en Suisse Romande</span></li>
+                    </ul>
+                    <div class="mt-5"><a class="btn btn-white hover-outline" href="https://purolex.ch" style="margin-bottom: 30PX;">Découvrir</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Pricing-->
+        
+        <!-- ======= How it works =======-->
+        <section class="section howitworks__v1" id="how-it-works">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-6 text-center mx-auto"><span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Comment ça marche</span>
+                <h2 data-aos="fade-up" data-aos-delay="100">Notre Processus en 5 Étapes</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Une approche structurée pour vous offrir le meilleur service de gestion immobilière</p>
+              </div>
+            </div>
+            <div class="row g-md-5">
+              <div class="col-md-6 col-lg-3">
+                <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative" data-aos="fade-up" data-aos-delay="0">
+                  <div data-aos="fade-right" data-aos-delay="500"><img class="arch-line" src="assets/images/arch-line.svg" alt="Ligne de connexion"></div><span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">1</span>
+                  <div>
+                    <h3 class="fs-5 mb-4">Remise des Clés</h3>
+                    <p>Rendez-vous sur place pour l'état des lieux, la signature du contrat et la remise des clés de votre logement.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+                <div class="step-card reverse text-center h-100 d-flex flex-column justify-content-start position-relative">
+                  <div data-aos="fade-right" data-aos-delay="1100"><img class="arch-line reverse" src="assets/images/arch-line-reverse.svg" alt="Ligne de connexion"></div><span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">2</span>
+                  <h3 class="fs-5 mb-4">Gestion Complète</h3>
+                  <p>Nous prenons en charge la totalité de la gestion: annonces, réservations, accueil des voyageurs, ménage, maintenance et service client 7j/7.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1200">
+                <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative">
+                  <div data-aos="fade-right" data-aos-delay="1700"><img class="arch-line" src="assets/images/arch-line.svg" alt="Ligne de connexion"></div><span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">3</span>
+                  <h3 class="fs-5 mb-4">Audit de Performance</h3>
+                  <p>Bilan mensuel détaillé de vos revenus et des performances de votre bien sur les différentes plateformes de location.</p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="1800">
+                <div class="step-card last text-center h-100 d-flex flex-column justify-content-start position-relative"><span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">4</span>
+                  <div>
+                    <h3 class="fs-5 mb-4">Optimisation Continue</h3>
+                    <p>Ajustement des tarifs et des annonces en fonction des saisons et des événements locaux pour maximiser vos revenus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col-md-6 col-lg-3 offset-lg-0 mx-2" data-aos="fade-up" data-aos-delay="2000">
+                <div class="step-card text-center h-100 d-flex flex-column justify-content-start position-relative"><span class="step-number rounded-circle text-center fw-bold mb-5 mx-auto">5</span>
+                  <div>
+                    <h3 class="fs-5 mb-4">Reporting Transparent</h3>
+                    <p>Accès à un tableau de bord en temps réel pour suivre les réservations, les revenus et les interventions sur votre bien.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End How it works-->
+        
+        <!-- ======= Stats =======-->
+        <section class="stats__v3 section">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="d-flex flex-wrap content rounded-4" data-aos="fade-up" data-aos-delay="0">
+                  <div class="rounded-borders">
+                    <div class="rounded-border-1"></div>
+                    <div class="rounded-border-2"></div>
+                    <div class="rounded-border-3"></div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="2">0</span><span>K+</span></h3>
+                      <p class="mb-0">Customer Satisfaction</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold"> <span class="purecounter" data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="2">0</span><span>%+</span></h3>
+                      <p class="mb-0">Revenue Increase</p>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0 text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-item">
+                      <h3 class="fs-1 fw-bold"><span class="purecounter" data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="2">0</span><span>x</span></h3>
+                      <p class="mb-0">Business Growth</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Stats-->
+        
+        <!-- ======= Services =======-->
+        <section class="section services__v3" id="services">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-8 mx-auto text-center"><span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Nos Services</span>
+                <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100">Une Gestion Immobilière Complète et Professionnelle</h2>
+              </div>
+            </div>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div><span class="icon mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <g>
+                          <path d="M50.327 4H25.168a6.007 6.007 0 0 0-6 6v5.11h-8.375a3.154 3.154 0 0 0-3.12 3.18v5.47a1 1 0 0 0 .724.961 3.204 3.204 0 0 1 0 6.097 1 1 0 0 0-.724.962v5.49a3.154 3.154 0 0 0 3.12 3.18H34.5c-2.147 8.057 9.408 12.135 12.77 4.441a1 1 0 0 0-1.841-.779 4.778 4.778 0 1 1-4.403-6.636c1.039-.159 2.453 1.082 3.063-.225.449-1.37-1.383-1.598-2.336-1.734V31.8a1 1 0 0 0-.72-.96 3.21 3.21 0 0 1 0-6.11 1 1 0 0 0 .72-.96v-5.48a3.154 3.154 0 0 0-3.12-3.18H21.168V10a4.004 4.004 0 0 1 4-4h3.21l1.24 3.066a3.982 3.982 0 0 0 3.708 2.503h8.826a3.984 3.984 0 0 0 3.71-2.503L47.1 6h3.228a4.004 4.004 0 0 1 4 4v1.6a1 1 0 0 0 2 0V10a6.007 6.007 0 0 0-6-6ZM38.633 17.11a1.153 1.153 0 0 1 1.12 1.18v4.792a5.234 5.234 0 0 0 0 9.405V35.6a6.789 6.789 0 0 0-4.333 2.85H10.793a1.153 1.153 0 0 1-1.12-1.18v-4.8a5.232 5.232 0 0 0 0-9.401V18.29a1.153 1.153 0 0 1 1.12-1.18Zm5.375-8.793a1.994 1.994 0 0 1-1.856 1.252h-8.826a1.991 1.991 0 0 1-1.854-1.252l-.934-2.312H44.94Z" fill="currentColor" opacity="1" data-original="#000000"></path>
+                          <path d="M55.327 14.6a1 1 0 0 0-1 1V54a4.004 4.004 0 0 1-4 4H25.168a4.004 4.004 0 0 1-4-4V43.45a1 1 0 0 0-2 0V54a6.007 6.007 0 0 0 6 6h25.16a6.007 6.007 0 0 0 6-6V15.6a1 1 0 0 0-1-1Z" fill="currentColor" opacity="1" data-original="#000000"></path>
+                          <path d="M41.185 54.52a1 1 0 0 0 0-2h-6.891a1 1 0 0 0 0 2ZM24.713 28.383a.853.853 0 1 1-.835 1.028.998.998 0 0 0-1.184-.775c-1.765.61-.18 2.94 1.017 3.265-.271 1.919 2.27 1.926 2-.003a2.852 2.852 0 0 0-.998-5.515.851.851 0 1 1 .821-1.084 1 1 0 0 0 1.926-.54 2.857 2.857 0 0 0-1.749-1.893v-.518a1 1 0 0 0-2 0v.521a2.852 2.852 0 0 0 1.002 5.514Z" fill="currentColor" opacity="1" data-original="#000000"></path>
+                          <path d="M24.713 36.43a9.092 9.092 0 0 0 9.082-9.082c-.499-12.047-17.666-12.045-18.163 0a9.092 9.092 0 0 0 9.08 9.082Zm0-16.163a7.09 7.09 0 0 1 7.082 7.081c-.371 9.388-13.793 9.387-14.163 0a7.09 7.09 0 0 1 7.08-7.081ZM46.413 37.53l-4.757 4.757-1.68-1.68a1 1 0 0 0-1.413 1.415l2.386 2.386a1 1 0 0 0 1.414 0l5.464-5.464a1 1 0 0 0-1.414-1.414Z" fill="currentColor" opacity="1" data-original="#000000"></path>
+                        </g>
+                      </svg></span>
+                    <h3 class="fs-5 mb-3">Création d'une Annonce Optimisée</h3>
+                    <p class="mb-4">Mise en valeur de votre bien : photos professionnelles, titre percutant, description engageante et présentation attractive pour maximiser les clics.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div><span class="icon mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <g>
+                          <path d="m57.936 58.647-4.47-11.871a9.542 9.542 0 0 0-5.914-5.693l-7.659-2.609-1.944-2.116v-2.62a13.043 13.043 0 0 0 4.739-5.175 14.256 14.256 0 0 0 3.237.14 2.909 2.909 0 0 0 2.905-2.906v-5.382a2.895 2.895 0 0 0-1.495-2.523 13.84 13.84 0 0 0-2.807-7.777 1 1 0 0 0-1.597 1.205 11.879 11.879 0 0 1 2.386 6.19c-.012-.01-2.017.036-1.987-.023-4.064-11.113-18.668-11.126-22.702.024h-1.875c.73-9.938 13.556-14.987 21.539-8.81a1 1 0 0 0 1.196-1.605c-9.394-7.24-24.311-1.02-24.754 10.758a2.895 2.895 0 0 0-1.566 2.561v5.382a2.909 2.909 0 0 0 2.905 2.906c.4-.042 2.932.115 3.213-.122a12.843 12.843 0 0 0 4.542 5.038v2.757l-1.825 2.184-7.553 2.521a9.547 9.547 0 0 0-5.917 5.695l-4.47 11.871a1.008 1.008 0 0 0 .935 1.352H49.97a1 1 0 0 0 0-2H36.123l-2.985-7.876 2.014-2.491 2.009 1.746a1.007 1.007 0 0 0 1.643-.594l1.322-8.118 6.785 2.312a7.549 7.549 0 0 1 4.682 4.504L55.555 58H53.97a1 1 0 0 0 0 2H57a1.007 1.007 0 0 0 .936-1.353zm-13.77-39.136h1.759a.906.906 0 0 1 .905.904v5.382a.906.906 0 0 1-.905.906h-1.759zm-24.334 7.192h-1.759a.906.906 0 0 1-.905-.906v-5.382a.906.906 0 0 1 .905-.904h1.76s.038 5.959 0 7.192zm12.146-15.6a10.16 10.16 0 0 1 9.15 6.288L38.85 18.43a4.677 4.677 0 0 1-4.986-.747 6.633 6.633 0 0 0-7.78-.736l-3.91 2.325c1.2-4.704 5.135-8.169 9.803-8.169zM21.832 23.168V21.8l5.273-3.133a4.632 4.632 0 0 1 5.433.51 6.72 6.72 0 0 0 7.15 1.07l2.098-.957a12.113 12.113 0 0 1 .38 2.98c-.464 14.245-18.826 15.065-20.334.9zM35.95 34.706v1.718l-3.968 5.464-4.153-5.473v-1.78a11.242 11.242 0 0 0 8.12.071zm-9.164 3.643 3.852 5.075-3.771 3.28-1.206-7.008zM8.444 58l3.96-10.516a7.551 7.551 0 0 1 4.681-4.505l6.724-2.245 1.387 8.06a1.007 1.007 0 0 0 1.641.585l2.01-1.746 2.013 2.491L27.875 58zm25.54 0h-3.97L32 52.763zm-1.985-9.65-1.642-2.03 1.642-1.428 1.642 1.427zm5.12-1.658-3.772-3.28 3.693-5.085 1.224 1.332z" fill="currentColor" opacity="1" data-original="currentColor"></path>
+                        </g>
+                      </svg></span>
+                    <h3 class="fs-5 mb-3">Communication avec les voyageurs</h3>
+                    <p class="mb-4">Messages d'accueil et de départ, réponses rapides et résolution immédiate des problèmes rencontrés par vos voyageurs.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div><span class="icon mb-4">
+                    <img src="assets/images/performance.png" alt="" style="width: 60px; margin-right: -60px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        
+                      </svg></span>
+                    <h3 class="fs-5 mb-3">Boost de votre référencement</h3>
+                    <p class="mb-4">Optimisation du référencement sur Airbnb, Booking et autres plateformes pour améliorer la visibilité de vos annonces.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div><span class="icon mb-4">
+                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <g>
+                          <path d="M59 47.487h-1.81v-27.61a5.223 5.223 0 0 0-5-5.409h-3.71a1 1 0 0 0 0 2h3.71a3.228 3.228 0 0 1 3 3.41v27.609H26.03a1.013 1.013 0 0 0-.996 1.02 34.358 34.358 0 0 0 1.49 3.57 2 2 0 0 0 1.828 1.188h7.296a2 2 0 0 0 1.828-1.188l1.149-2.589L58 49.487v2.74a2.823 2.823 0 0 1-2.82 2.82H8.82A2.823 2.823 0 0 1 6 52.227v-2.74h16.03a1 1 0 0 0 0-2H8.81v-27.61a3.228 3.228 0 0 1 3-3.41h6.89c-3.535 9.154 3.658 19.594 13.63 19.48 11.076.08 18.127-12.336 12.587-21.706a14.54 14.54 0 0 0-25.162-.073 1.646 1.646 0 0 1-.163.299H11.81a5.223 5.223 0 0 0-5 5.41v27.61H5a1 1 0 0 0-1 1v3.74a4.825 4.825 0 0 0 4.82 4.82h46.36a4.825 4.825 0 0 0 4.82-4.82v-3.74a1 1 0 0 0-1-1zm-23.352 3.778h-7.296l-.788-1.775h8.872zm-4.332-17.37a12.517 12.517 0 0 1-9.29-5.372l2.072-1.196a10.137 10.137 0 0 0 7.218 4.188zm2 .001v-2.38a10.12 10.12 0 0 0 7.224-4.178l2.073 1.197a12.5 12.5 0 0 1-9.297 5.361zm11.521-12.471A12.435 12.435 0 0 1 43.61 26.8l-2.064-1.192a10.127 10.127 0 0 0 .008-8.344l2.064-1.192a12.412 12.412 0 0 1 1.22 5.353zM33.33 8.967a12.503 12.503 0 0 1 9.295 5.37l-2.073 1.196a10.124 10.124 0 0 0-7.222-4.187zm7.129 12.458a8.144 8.144 0 0 1-8.13 8.14c-10.794-.446-10.804-15.824 0-16.27a8.138 8.138 0 0 1 8.13 8.13zM31.329 8.966v2.38a10.138 10.138 0 0 0-7.226 4.177l-2.073-1.196a12.518 12.518 0 0 1 9.3-5.36zm-10.295 7.095 2.064 1.192a10.022 10.022 0 0 0-.003 8.343l-2.064 1.192a12.473 12.473 0 0 1 .003-10.727z" fill="currentColor" opacity="1" data-original="#000000"></path>
+                          <path d="M32.322 22.446a1.276 1.276 0 1 1-1.225 1.632 1 1 0 0 0-1.921.556 3.29 3.29 0 0 0 2.146 2.202v.352a1 1 0 0 0 2 0v-.363a3.272 3.272 0 0 0-1-6.38A1.276 1.276 0 1 1 33.57 18.9a1 1 0 0 0 1.956-.418 3.287 3.287 0 0 0-2.204-2.423c.082-.687-.226-1.374-1-1.385-.78.016-1.08.697-1 1.392a3.272 3.272 0 0 0 1 6.38z" fill="currentColor" opacity="1" data-original="#000000"></path>
+                        </g>
+                      </svg></span>
+                    <h3 class="fs-5 mb-3">Gestion dynamique des prix et calendrier</h3>
+                    <p class="mb-4">Ajustement des prix selon l'offre et la demande pour maximiser vos revenus, synchronisation des disponibilités sur calendrier.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div><span class="icon mb-4">
+                    <img src="assets/images/maison-propre.png" alt="" style="width: 60px; margin-right: -60px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                       
+                      </svg></span>
+                    <h3 class="fs-5 mb-3">Nettoyage et gestion du linge</h3>
+                    <p class="mb-4">Entretien complet du logement et gestion du linge avec des produits de qualité pour un confort optimal des voyageurs.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-card p-4 rounded-4 h-100 d-flex flex-column justify-content-between gap-5">
+                  <div><span class="icon mb-4">
+                    <img src="assets/images/entretien.png" alt="" style="width: 60px; margin-right: -60px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewbox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        
+                      </svg></span>
+                    <h3 class="fs-5 mb-3">Maintenance et Travaux</h3>
+                    <p class="mb-4">Prise en charge des pannes et incidents : fuites, serrures, électroménager, petits travaux techniques régulièrement réglés. Mise sous contrôle travaux d'aménagement et d'installation du logement.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Services-->
+        
+        <!-- ======= Testimonials =======-->
+        <section class="section testimonials__v2" id="testimonials">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-lg-5 mx-auto text-center">
+                <span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Témoignages</span>
+                <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100">Ce que disent nos clients</h2>
+                <p data-aos="fade-up" data-aos-delay="200">Découvrez les histoires de nos clients satisfaits.</p>
+              </div>
+            </div>
+            <div class="row g-4" data-masonry='{"percentPosition": true }'>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">&ldquo;Notre séjour a été exceptionnel grâce à Conciergerie Mouhtaram. L’appartement était impeccable, l’accueil chaleureux et l’assistance disponible 24h/24. Une prestation haut de gamme que nous recommandons vivement !&rdquo;</blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/airbnb-logo-png_seeklogo-272806.png" alt="Amélie Dupont"></div>
+                    <div class="lh-base"><strong class="d-block">Amélie Dupont</strong><span>5 ans sur Airbnb</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">&ldquo;Conciergerie Mouhtaram a rendu mon séjour business simple et efficace. Transferts, ménage, repas et gestion complète de l’appartement : tout était parfaitement organisé.&rdquo;</blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/booking-com-logo-png_seeklogo-474475.png" alt="Youssef El Idrissi"></div>
+                    <div class="lh-base"><strong class="d-block">Youssef El Idrissi</strong><span>6 ans sur Booking.com</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">&ldquo;Une expérience inoubliable ! Conciergerie Mouhtaram s’est occupée de tout : activités, ménage, réservations… Nous avons profité pleinement de nos vacances sans aucun souci.&rdquo;</blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/airbnb-logo-png_seeklogo-272806.png" alt="Lina B."></div>
+                    <div class="lh-base"><strong class="d-block">Lina B.</strong><span>3 ans sur Airbnb</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">&ldquo;Tout a été organisé pour notre famille : courses, lit bébé, navette aéroport… Un service complet et humain. Nous reviendrons sans hésitation grâce à Conciergerie Mouhtaram.&rdquo;</blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/booking-com-logo-png_seeklogo-474475.png" alt="Mohamed A."></div>
+                    <div class="lh-base"><strong class="d-block">Mohamed A.</strong><span>7 ans sur Booking.com</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">&ldquo;Un week-end magique : spa, restaurants, activités… Tout était planifié avec soin. Conciergerie Mouhtaram propose un service premium et une équipe aux petits soins.&rdquo;</blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/airbnb-logo-png_seeklogo-272806.png" alt="Salma Cherkaoui"></div>
+                    <div class="lh-base"><strong class="d-block">Salma Cherkaoui</strong><span>2 ans sur Airbnb</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">&ldquo;Tout a été pris en charge : réservation des green fees, transferts et hébergement de qualité. Conciergerie Mouhtaram assure un service fiable et professionnel.&rdquo;</blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/booking-com-logo-png_seeklogo-474475.png" alt="André Müller"></div>
+                    <div class="lh-base"><strong class="d-block">André Müller</strong><span>6 ans sur Booking.com</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">&ldquo;Appartement décoré avec goût, accueil impeccable et communication fluide. Conciergerie Mouhtaram offre un service élégant et efficace. 5 étoiles !&rdquo;</blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/airbnb-logo-png_seeklogo-272806.png" alt="Carmen Rodríguez"></div>
+                    <div class="lh-base"><strong class="d-block">Carmen Rodríguez</strong><span>4 ans sur Airbnb</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="700">
+                <div class="testimonial rounded-4 p-4">
+                  <blockquote class="mb-3">&ldquo;Tout était parfait : logement idéalement situé, équipements prêts à l’arrivée et assistance rapide. Conciergerie Mouhtaram est un partenaire de confiance.&rdquo;</blockquote>
+                  <div class="testimonial-author d-flex gap-3 align-items-center">
+                    <div class="author-img"><img class="rounded-circle img-fluid" src="assets/images/booking-com-logo-png_seeklogo-474475.png" alt="Tom Wagner"></div>
+                    <div class="lh-base"><strong class="d-block">Tom Wagner</strong><span>5 ans sur Booking.com</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Testimonials-->
+        
+        <!-- ======= FAQ =======-->
+        <section class="section faq__v2" id="faq">
+          <div class="container">
+            <div class="row mb-4">
+              <div class="col-md-6 col-lg-7 mx-auto text-center"><span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">FAQ</span>
+                <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Vous avez des questions</h2>
+                <p data-aos="fade-up" data-aos-delay="100">La gestion de votre logement soulève peut-être des interrogations. Retrouvez ici les réponses aux questions les plus courantes. Si la vôtre n’y figure pas, contactez-nous directement.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
+                <div class="faq-content">
+                  <div class="accordion custom-accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne"> Comment votre commission est-elle calculée ? </button>
+                      </h2>
+                      <div class="accordion-collapse collapse show" id="panelsStayOpen-collapseOne">
+                        <div class="accordion-body">Notre commission est basée uniquement sur les revenus locatifs que vous générez réellement. Pas de revenu, pas de commission. Simple et transparent.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo"> Que se passe-t-il en cas de dégâts ou dommages ? </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="panelsStayOpen-collapseTwo">
+                        <div class="accordion-body">Nous disposons d’une assurance complète couvrant tous les dommages. Par ailleurs, un état des lieux minutieux est réalisé avant et après chaque séjour.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree"> Puis-je utiliser mon logement quand je le souhaite ? </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="panelsStayOpen-collapseThree">
+                        <div class="accordion-body">Absolument ! Vous restez propriétaire et pouvez bloquer les dates sur votre calendrier selon vos besoins personnels.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour"> Comment maximisez-vous mes revenus locatifs ? </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="panelsStayOpen-collapseFour">
+                        <div class="accordion-body">Nous utilisons des outils de tarification dynamique, optimisons vos annonces et gérons votre réputation afin d’assurer un taux d’occupation optimal.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive"> Quel est le délai pour la mise en ligne du logement ? </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="panelsStayOpen-collapseFive">
+                        <div class="accordion-body">Après signature du contrat, comptez entre 7 et 10 jours pour la prise de photos professionnelles et la préparation des annonces.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End FAQ-->
+        </section>
+        <!-- End FAQ-->
+        
+        <!-- ======= Contact =======-->
+        <section class="section contact__v2" id="contact">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-6 col-lg-7 mx-auto text-center"><span class="subtitle text-uppercase mb-3" data-aos="fade-up" data-aos-delay="0">Contact</span>
+                <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Contactez-nous</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Pour toute question ou demande, n’hésitez pas à nous contacter. Nous sommes là pour vous aider.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex gap-5 flex-column">
+                  <div class="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="0">
+                    <div class="icon d-block"><i class="bi bi-telephone"></i></div><span> <span class="d-block">Téléphone</span><strong>+212 694 157 520</strong></span>
+                  </div>
+                  <div class="d-flex align-items-start gap-3" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon d-block"><i class="bi bi-send"></i></div><span> <span class="d-block">Email</span><strong>conciergeriemouhtaram@outlook.com</strong></span>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-wrapper" data-aos="fade-up" data-aos-delay="300">
+                  <form id="contactForm" action="https://formspree.io/f/xzdaodel" method="POST">
+                    <div class="row gap-3 mb-3">
+                      <div class="col-md-12">
+                        <label class="mb-2" for="name">Nom</label>
+                        <input class="form-control" id="name" type="text" name="name" required="">
+                      </div>
+                      <div class="col-md-12">
+                        <label class="mb-2" for="email">Email</label>
+                        <input class="form-control" id="email" type="email" name="email" required="">
+                      </div>
+                    </div>
+                    <div class="row gap-3 mb-3">
+                      <div class="col-md-12">
+                        <label class="mb-2" for="subject">Sujet</label>
+                        <input class="form-control" id="subject" type="text" name="subject">
+                      </div>
+                    </div>
+                    <div class="row gap-3 gap-md-0 mb-3">
+                      <div class="col-md-12">
+                        <label class="mb-2" for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required=""></textarea>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary fw-semibold" type="submit">Envoyer</button>
+                  </form>
+                  <div class="mt-3 d-none alert alert-success" id="successMessage">Message sent successfully!</div>
+                  <div class="mt-3 d-none alert alert-danger" id="errorMessage">Message sending failed. Please try again later.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Contact-->
+        
+        <!-- ======= Footer =======-->
+        <footer class="footer pt-5 pb-5">
+          <div class="container">
+           
+            <div class="row justify-content-between mb-5 g-xl-5">
+              <div class="col-md-4 mb-5 mb-lg-0">
+                <h3 class="mb-3">About</h3>
+                <p class="mb-4">Conciergerie Mouhtaram est spécialisée dans la gestion de biens destinés à la location courte durée. Basés au Maroc, nous accompagnons les propriétaires dans la valorisation de leurs logements afin d'en maximiser le rendement locatif.</p>
+              </div>
+              <div class="col-md-7">
+                <div class="row g-2">
+                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <h3 class="mb-3">Company</h3>
+                    <ul class="list-unstyled">
+                      <li><a href="#home">home</a></li>
+                      <li><a href="#about">about</a></li>
+                      <li><a href="#services">services</a></li>
+                      <li><a href="#pricing">pricing</a></li>
+                      <li><a href="#how-it-works">how-it-works</a></li>
+                      <li><a href="#testimonials">testimonials</a></li>
+                      <li><a href="#faq">faq</a></li>
+                      
+                    </ul>
+                  </div>
+                  
+                  <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact">
+                    <h3 class="mb-3">Contact</h3>
+                    <a class="d-flex mb-3" href="conciergeriemouhtaram@outlook.com"><i class="bi bi-envelope-fill me-3"></i><span>conciergeriemouhtaram@outlook.com</span></a><a class="d-flex mb-3" href="tel://++212694157520"><i class="bi bi-telephone-fill me-3"></i><span>+212 694 157 520</span></a><a class="d-flex mb-3" href="https://purolex.ch"><i class="bi bi-globe me-3"></i><span>purolex</span></a><a class="d-flex mb-3" href="https://conciergeriemouhtaram.com/#contact"><i class="bi bi-globe me-3"></i><span>conciergeriemouhtaram</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row credits pt-3">
+              <div class="col-xl-8 text-center text-xl-start mb-3 mb-xl-0">
+                <!--
+                Note:
+                =>>> Please keep all the footer links intact. <<<=
+                =>>> You can only remove the links if you buy the pro version. <<<=
+                =>>> Buy the pro version, which includes a functional PHP/AJAX contact form and many additional features.: https://freebootstrap.net/template/vertex-pro-bootstrap-website-template-for-portfolio/ <<<=
+                --> 
+                &copy;
+                <script>document.write(new Date().getFullYear());</script> 
+                 All rights reserved. Designed with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://freebootstrap.net">FreeBootstrap.net</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer-->
+        
+      </main>
+    </div>
+    
+    <!-- ======= Back to Top =======-->
+    <button id="back-to-top"><i class="bi bi-arrow-up-short"></i></button>
+    <!-- End Back to top-->
+    
+    <!-- ======= Javascripts =======-->
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/gsap/gsap.min.js"></script>
+    <script src="assets/vendors/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="assets/vendors/glightbox/glightbox.min.js"></script>
+    <script src="assets/vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendors/aos/aos.js"></script>
+    <script src="assets/vendors/purecounter/purecounter.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/send_email.js"></script>
+    <!-- End JavaScripts-->
+  </body>
+</html>
